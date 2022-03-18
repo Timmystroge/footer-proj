@@ -1,0 +1,67 @@
+@media (max-width: 991px) {
+    #payment-method {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .footer-card .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        
+    }
+    /* footerlink spacing  */
+    .footerlink {
+        margin-bottom: 25px;
+    }
+    .footerlink:nth-child(4) {
+        margin-bottom: 20px;
+    }
+    .footerlink h3 {
+        margin-bottom: 10px;;
+    }
+    /* // help button  */
+    .footer-card .footer-container .footer_header .help-botton {
+        width: 50%;
+    }
+    /* // language  */
+    .language {
+        margin-bottom:15px;
+    }
+
+    /* //footer payment  */
+    .footer-payment {
+        margin-bottom: 20px;
+    }
+    .margin-b h3 {
+        margin-bottom: 200px;
+    }
+     /* // follow  */
+     .footer-container .footer-payment .follow-us ul {
+        justify-content: flex-start;
+    }
+    .follow-us ul li {
+        margin-right: 20px;
+    }
+    /* // footer copywrite  */
+    .footer-copy {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .footer-copy p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .footer-copy span{
+       display: none;
+    }
+}
+@media (max-width: 375px) {
+    /* // help button  */
+    .footer-card .footer-container .footer_header .help-botton {
+        width: 100%;
+    }
+}
+ 
