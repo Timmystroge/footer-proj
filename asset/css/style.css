@@ -130,10 +130,10 @@ a:focus {
     padding:0 5px 0 0;  
     color: #545454; 
 }
-.language-heading {
+/* .language-heading {
     position: relative;
     top: 2px;
-}
+} */
 /* // follow  */
 .follow-us ul li {
     margin-right: 15px;
@@ -164,7 +164,7 @@ a:focus {
 .footer-copy p {
     font-size: 14px;
 }
-.footer-copy span{
+.footer-copy .divider{
    margin-left: 4px;
    margin-right: 4px;
 }
